@@ -16,7 +16,7 @@ const Wrapper = styled.div`
 const BufferList = styled.pre`
     margin: 5px 0;
     font-family: "Inconsolata", monospace;
-    font-size: 22px;
+    font-size: 20px;
     overflow-y: auto;
     white-space: pre-wrap;
     scroll-behavior: smooth;
