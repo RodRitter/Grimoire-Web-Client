@@ -129,7 +129,7 @@ const Game = () => {
             load();
 
             // Connect to socket
-            setSocket(io.connect("https://grimoire-server.vercel.app"));
+            setSocket(io.connect("https://grimoire-server.vercel.app:3001"));
         } else {
             // redirect
         }
