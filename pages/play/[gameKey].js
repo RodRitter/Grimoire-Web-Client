@@ -130,9 +130,7 @@ const Game = () => {
 
             // Connect to socket
             setSocket(
-                io.connect(
-                    "https://king-prawn-app-megxm.ondigitalocean.app:3001"
-                )
+                io.connect("https://king-prawn-app-megxm.ondigitalocean.app")
             );
         } else {
             // redirect
