@@ -129,7 +129,11 @@ const Game = () => {
             load();
 
             // Connect to socket
-            setSocket(io.connect("https://grimoire-server.vercel.app:3001"));
+            setSocket(
+                io.connect(
+                    "https://king-prawn-app-megxm.ondigitalocean.app:3001"
+                )
+            );
         } else {
             // redirect
         }
