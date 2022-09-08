@@ -21,7 +21,7 @@ const MapWrapper = styled.pre`
     margin: 0;
     background: #191a1c;
     letter-spacing: 6px;
-    font-size: 24px;
+    font-size: 20px;
     position: absolute;
     top: 0;
     bottom: 0;
